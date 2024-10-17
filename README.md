@@ -9,9 +9,12 @@ GUI is implemented through Java's Swing toolkit as already integrated into stand
 ### Software architecture:
 
 #### MVC pattern.
-Model: Refers to the data model classes (Categories, NaiveBayesClassifier) used for business logic, in this case probabilistic calculations.
-View: Refers to the presentation of the data models, and GUI elements with which the users interacts (Swing Widgets).
-Controller: Handles user inputs and updates the models. Provides the action listeners for the view components (Buttons, File choosers).
+
+<b>Model:</b> Refers to the data model classes (Categories, NaiveBayesClassifier) used for business logic, in this case probabilistic calculations.
+
+<b>View:</b> Refers to the presentation of the data models, and GUI elements with which the users interacts (Swing Widgets).
+
+<b>Controller:</b> Handles user inputs and updates the models. Provides the action listeners for the view components (Buttons, File choosers).
 
 #### Observer pattern
 For updating view components when the category files or path is changed.
