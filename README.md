@@ -1,6 +1,6 @@
 # Document classifier
 This is a Java application that classifies text documents in one of the given categories. Training datasets for each categories must be supplied by the user.
-For the given datasets it achieves an accuracy of over 90% over a sample of 100 documents when fitted into one of 3 categories, result may vary according to training data an samples.
+For the given datasets it achieves an accuracy of over 90% over a sample of 100 documents when fitted into one of 3 categories, results may vary according to training data and samples.
 
 ## Implementation details:
 
@@ -23,7 +23,7 @@ Hash map for word counting used for bag-of-words model implementation, every wor
 
 ### Algorithms:
 
-The classifier is based on the Naive Bayes algorithm for classification which assumes probabilistic independence between words occurrences Laplace smoothing (α=1) is applied.
+The classifier is based on the Naive Bayes algorithm for classification which assumes probabilistic independence between words occurrences. Laplace smoothing (α=1) is applied.
 
 Implementation is done at a fairly low-level, since it was implemented from scratch and not with any of the existing libraries. This was done deliberately as I was trying to get a grasp of the foundations of Machine Learning algorithms back in 2017.
 
