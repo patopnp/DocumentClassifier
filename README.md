@@ -62,7 +62,7 @@ Where <b>ŷ</b> is the class with the highest likelihood.
 
 
 
-From here to estimate the conditional probability of words occurrence we use the tf-idf model, counting words appearence on each class.
+From here to estimate the conditional probability of words occurrence we use the bag of words model, counting words appearence on each class.
 
 ![image](https://github.com/user-attachments/assets/a5555a92-855c-40e2-8783-e16a828cdd47)
 
