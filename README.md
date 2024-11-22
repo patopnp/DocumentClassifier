@@ -96,7 +96,7 @@ Putting all together we have:
 
 ![image](https://github.com/user-attachments/assets/0290c444-10fa-4d10-93da-90badb31b0b1)
 
-To handle loss of precision for small values I worked with the terms' logarithms 
+To handle arithmetic underflow for small values I worked with the terms' logarithms 
 
 ![image](https://github.com/user-attachments/assets/eb9c8989-c3b7-4916-91fb-936ab061cdc8)
 
